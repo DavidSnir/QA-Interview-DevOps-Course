@@ -90,7 +90,7 @@ Do this **before starting any new branch** and **before opening a PR**.
 git fetch upstream
 
 # Switch to your develop branch
-git checkout -b my-develop-branch
+git checkout my-develop-branch
 
 # Merge upstream changes in (fast-forward preferred)
 git merge upstream/my-develop-branch --ff-only
