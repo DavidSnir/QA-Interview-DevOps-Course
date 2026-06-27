@@ -92,4 +92,4 @@ git push    # to your personal forked repository
 תודה על התרומה והעזרה בשיפור המאגר!
 
 יש רשימת פקודות מוכנה לעבודה עם גיטהאב תחת:
-[06-Git/How_To_Contribute.md](06-Git/How_To_Contribute-General.md)
+[06-Git/How_To_Contribute.md](06-Git/GitHub-how_to_collaborate/How_To_Contribute-General.md)
