@@ -1,5 +1,5 @@
 
-1. after accept GitHub PR - how to update local - when I'm the owner:
+### 1. after accept GitHub PR - how to update local - when I'm the owner:
 ```bash
 # (shortest option):
 git checkout main
@@ -24,7 +24,7 @@ git status
 
 
 
-2. how to solve merge conflict - when I'm the owner (3 options, they are the same, minor changes):
+### 2. how to solve merge conflict - when I'm the owner (3 options, they are the same, minor changes):
 * option1-shortest:
 ```bash option1-shortest:
 # 1. Make sure your main is up to date
@@ -140,13 +140,13 @@ git branch -d david_fetched_main
 
 
 # extra info:
-## contributors never push directly to repo - only with PR
+### contributors never push directly to repo - only with PR
 
-## another layer of protection:
+### another layer of protection:
 GitHub (Settings → Branches → Branch protection rules) so that even if someone somehow had access to "main", they can't push without a PR.
 
 
-## If the contributor has an active feature branch and upstream has changed:
+### If the contributor has an active feature branch and upstream has changed:
 contributor should also run "git rebase upstream/main" on that branch (or "merge upstream/main" into it) to avoid a messy PR (that what we did on stage "4.5. problem solve - what if Owner updated before your PR")
 
 
